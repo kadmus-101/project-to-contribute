@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #CCCCCC;
+    font-family: sans-serif;
+}
+body{
+    background: #1C1B22;
+}
+
+.container{
+    width: 80%;
+    margin: 70px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* title style */
+.info{
+    text-align: center;
+    max-width: 700px;
+}
+.info h3 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.info h5{
+    font-size: 1.5rem;
+    color: #00FE9A;
+    margin-bottom: 10px;
+}
+.info p{
+    font-size: 1.1rem;
+}
+.info span {
+    color: #00FE9A;
+    font-weight: 900;
+}
+.contribute-button{
+    padding: 10px 50px;
+    margin: 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    font-weight: 900;
+    color: #1C1B22;
+    background-color: #00FE9A;
+    cursor: pointer;
+}
+
+
+.contribute-numbers{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-self: flex-start;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.counter-dev{
+    background: #00FE9A;
+    color: #1C1B22;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+/* Search style */
+.filter-cards{
+    padding: 10px;
+    border: 2px solid #00FE9A;
+    border-radius: 10px;
+}
+.filter-cards input{
+    background: none;
+    border: none;
+    color: #00FE9A;
+    outline: none;
+    font-size: 1rem;
+    padding: 5px 20px;
+    font-weight: 600;
+    fill: none;
+}
+
+
+/* card style */
+.cards-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    max-width: 350px;
+    background: #252525;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 20px;
+}
+.card-info{
+    display: flex;
+    align-items: center;
+}
+.img-profile{
+    width: 50%;
+}
+.img-profile img{
+    width: 100%;
+    border-radius: 50%;
+}
+.personal-info{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 50%;
+}
+.personal-info h4{
+    font-size: 18px;
+    font-weight: 900;
+}
+.personal-info h5{
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+}
+.personal-info > div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.personal-info > div div{
+    margin-top: 5px;
+    text-align: center;
+}
+.personal-info div div h6{
+    font-size: 14px;
+    font-weight: 900;
+}
+.personal-info div div p{
+    font-size: 13px;
+}
+.personal-info > button {
+    color: #1C1B22;
+    background-color: #00FE9A;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 600;
+    align-self: center;
+    cursor: pointer;
+}
+
+.about-me{
+    padding: 10px;
+    margin: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+}
+.about-me p {
+    font-size: 15px;
+}
+.contact-me{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    gap: 15px;
+}
+.contact-me a{
+    text-decoration: none;
+    color: none;
+    width: 50px;
+}
+.contact-me a img{
+    width: 100%;
+}
