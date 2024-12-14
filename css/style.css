@@ -7,6 +7,9 @@
 body{
     background: #1C1B22;
 }
+button{
+    cursor: pointer;
+}
 
 .container{
     width: 80%;
@@ -16,7 +19,10 @@ body{
     justify-content: center;
     align-items: center;
 }
-
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
 /* title style */
 .info{
     text-align: center;
@@ -39,6 +45,7 @@ body{
     color: #00FE9A;
     font-weight: 900;
 }
+
 .contribute-button{
     padding: 10px 50px;
     margin: 30px;
@@ -50,7 +57,6 @@ body{
     background-color: #00FE9A;
     cursor: pointer;
 }
-
 
 .contribute-numbers{
     margin-top: 30px;
@@ -84,25 +90,32 @@ body{
     fill: none;
 }
 
-
 /* card style */
 .cards-section{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
 }
 .card{
     max-width: 350px;
-    background: #252525;
+    background: #141318;
     padding: 20px;
     border-radius: 30px;
     margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 254, 154, 0.5);
+    transition: transform 0.4s ease, box-shadow 0.3s ease;
 }
+.card:hover{
+    transform: scale(1.03);
+    box-shadow: 0 8px 12px rgba(0, 254, 154, 0.7);
+}
+
 .card-info{
     display: flex;
     align-items: center;
 }
+
 .img-profile{
     width: 50%;
 }
@@ -110,6 +123,7 @@ body{
     width: 100%;
     border-radius: 50%;
 }
+
 .personal-info{
     display: flex;
     flex-direction: column;
@@ -131,6 +145,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 110px;
+    gap: 10px;
 }
 .personal-info > div div{
     margin-top: 5px;
@@ -160,13 +176,20 @@ body{
     margin: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
-    text-align: center;
     border-top: 1px solid #CCCCCC;
     border-bottom: 1px solid #CCCCCC;
 }
+.about-me h5 {
+    font-size: 1.2rem;
+    text-align: left;
+    color: #00FE9A;
+    margin-bottom: 3px;
+}
 .about-me p {
     font-size: 15px;
+    text-align: justify;
 }
+
 .contact-me{
     display: flex;
     justify-content: space-between;
@@ -180,4 +203,36 @@ body{
 }
 .contact-me a img{
     width: 100%;
+}
+
+.footer-container{
+    background: #101010;
+    padding: 25px 0;
+    text-align: center;
+    border-top: 2px solid #00FE9A;
+    border-bottom: 2px solid #00FE9A;
+    align-items: center;
+}
+
+@media (max-width: 550px ) {
+
+    .info h3 {
+        font-size: 2.2rem;
+    }
+    .personal-info{
+        align-items: center;
+    }
+    .personal-info div {
+        margin-right: 10px;
+        justify-content: space-between;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .card-info{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
 }
