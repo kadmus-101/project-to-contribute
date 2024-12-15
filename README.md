@@ -30,7 +30,7 @@ git clone https://github.com/jose-bento-machaiela/project-to-contribute.git
 
     #### Modelo de Card
 
-    ![Contributor Card](/img/readme-img/screan-card.png 'Contributor Card')
+    ![card](/img/readme-img/screan-card.png 'card')
 
 2. Copie o modelo de um card existente e adicione suas informações:
     - Nome

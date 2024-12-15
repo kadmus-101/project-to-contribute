@@ -159,7 +159,7 @@ a{
 .personal-info div div p{
     font-size: 13px;
 }
-.personal-info > button {
+.personal-info > a button {
     color: #1C1B22;
     background-color: #00FE9A;
     padding: 5px 30px;
