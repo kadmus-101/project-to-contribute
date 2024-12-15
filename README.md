@@ -21,3 +21,42 @@ Clique no botão **Fork** no canto superior direito da página deste repositóri
 Execute o comando abaixo no terminal:
 ```bash
 git clone https://github.com/jose-bento-machaiela/project-to-contribute.git
+
+```
+
+### Passo 3: Adicione suas informações no projecto 
+
+1. Navegue até o arquivo index.html e localize a div cards-section.
+
+    #### Modelo de Card
+
+2. Copie o modelo de um card existente e adicione suas informações:
+    - Nome
+    - Nível (Junior, Pleno, ou Sênior)
+    - Vertente (Frontend, Backend ou FullStack)
+    - Uma breve descrição sobre você na seção "Sobre mim".
+3. Adicione sua imagem de perfil no diretório ./img/perfil/.
+
+
+### Passo 4: Faça um commit das alterações
+
+```bash
+git add .
+git commit -m "card de seu-nome adicionado"
+```
+
+### Passo 5: Envie as alterações para o seu repositório
+```bash
+git push origin main
+```
+
+### Passo 6: Faça um pull request
+Vá até a página do repositório original e clique em Pull Request. Envie a solicitação para revisão.
+
+## ✨ Recursos do projecto
+Design responsivo para visualização em diferentes dispositivos.
+Cards organizados com informações profissionais dos desenvolvedores.
+Incentivo à colaboração e aprendizado sobre Git, GitHub e contribuições Open-Source.
+
+## 🤝 Contribuidores
+Agradecemos a todos que contribuírem com este projecto. Sua participação é essencial para o sucesso da iniciativa!
