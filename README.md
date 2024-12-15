@@ -17,7 +17,7 @@ O **Card Developer Project** consiste em uma página onde desenvolvedores podem 
 ### Passo 1: Faça o fork do repositório
 Clique no botão **Fork** no canto superior direito da página deste repositório para criar uma cópia no seu perfil.
 
-### Passo 2: Clone o repositório para o seu perfil
+### Passo 2: Clone o repositório para o seu computador
 Execute o comando abaixo no terminal:
 ```bash
 git clone https://github.com/jose-bento-machaiela/project-to-contribute.git
